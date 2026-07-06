@@ -251,3 +251,29 @@ form button{
 form button:hover{
     background: #e66b00;
 }
+footer{
+    background-color: #A6A7AF;
+    padding: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+.fooname{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+}
+a{
+    text-decoration: none;
+    color: #ffff;
+}
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+footer p{
+    color: #ffff;
+}
