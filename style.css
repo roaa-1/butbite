@@ -148,3 +148,48 @@ gap: 20px;
     color: #FF7A00;
     border: 1px solid #FF7A00;
 }
+.services{
+    padding: 50px;
+    text-align: center;
+}
+.services .idea{
+    padding-bottom: 20px;
+} 
+.services p{
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    padding-bottom: 20px;
+} 
+.products{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.product{
+    border-radius: 10px;
+    box-shadow: #6f6464 0px 4px 8px;
+    transition: 0.3s;
+}
+.product .image{
+    width: 300px;
+    height: 200px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.product:hover{
+    transform: scale(1.09);
+}
+h3{
+    font-size: 24px;
+    color: #FF7A00;
+    margin: 20px 0;
+}
+
