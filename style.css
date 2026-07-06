@@ -53,19 +53,18 @@ ul li a:hover{
     color: #FF7A00;
     text-decoration: underline;
 }
-h2{
-    font-size: 32px;
-    color: #333333;
-    margin: 40px 0;
-    text-align: center;
-}
-
 .hero{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 50px;
     background-color: #A6A7AF;
+}
+h2{
+    font-size: 32px;
+    color: #333333;
+    margin: 40px 0;
+    text-align: center;
 }
 .heroh{
     display: flex;
