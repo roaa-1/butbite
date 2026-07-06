@@ -60,12 +60,6 @@ ul li a:hover{
     padding: 50px;
     background-color: #A6A7AF;
 }
-h2{
-    font-size: 32px;
-    color: #333333;
-    margin: 40px 0;
-    text-align: center;
-}
 .heroh{
     display: flex;
     align-items: center;
@@ -98,4 +92,59 @@ h1{
 .discription a:hover{
     background: #ffff;
     color: #FF7A00;
+}
+.about{
+padding: 50px ;
+}
+h2{
+    font-size: 32px;
+    color: #FF7A00;
+    margin: 40px 0;
+    text-align: center;
+}
+.aboutbody{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.details{
+flex: 1;
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.idea{
+    font-size: 30px;
+    font-weight: bold;
+}
+.title2{
+    color: #FF7A00;
+}
+.details p{
+    font-size: 18px;
+    color: #333333;
+}
+.aboutimg{
+    flex: 1;
+}
+.about-image img{
+    width: 100%;
+    border-radius: 20px;
+}
+.details a{
+    background-color: #FF7A00;
+    color: white;
+    width: 200px;
+    text-align: center;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.details a:hover{
+    background: #ffff;
+    color: #FF7A00;
+    border: 1px solid #FF7A00;
 }
