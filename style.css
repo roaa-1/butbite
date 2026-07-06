@@ -193,3 +193,61 @@ h3{
     margin: 20px 0;
 }
 
+.contact{
+    padding: 50px;
+    text-align: center;
+}
+.contact p{
+    font-size: 18px;
+    color: #333333;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.contact .idea{
+    padding-bottom: 20px;
+}
+form{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+.input-row{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.input-row input{
+    width: 50%;
+}
+form input,
+form textarea{
+    width: 100%;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+form textarea{
+    height: 180px;
+    resize: none;
+}
+form button{
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 10px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover{
+    background: #e66b00;
+}
