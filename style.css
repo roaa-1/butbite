@@ -60,3 +60,43 @@ h2{
     text-align: center;
 }
 
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #A6A7AF;
+}
+.heroh{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+h1{
+    font-size: 48px;
+    color:black;
+    margin-bottom: 20px;
+}
+.herop{
+    font-size: 48px;
+    font-weight: bold;
+    color: #FF7A00;
+    margin-bottom: 20px;
+}
+.herodiscription{
+    font-size: 32px;
+    color: #333333;
+    margin-bottom: 30px;
+}
+.discription a{
+    background-color: #FF7A00;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.discription a:hover{
+    background: #ffff;
+    color: #FF7A00;
+}
